@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pulse LaunchLens — Robinhood Chain launch intelligence</title>
+  <meta name="description" content="Read-only Robinhood Chain launch intelligence with provenance and executability evidence.">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/links.css">
+  <link rel="stylesheet" href="/mobile.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header>
+    <a class="brand" href="/" aria-label="LaunchLens home"><span class="mark">L</span><span>Pulse <b>LaunchLens</b></span></a>
+    <div class="network"><i></i> ROBINHOOD CHAIN <span>READ ONLY</span></div>
+  </header>
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">LAUNCH INTELLIGENCE / LIVE EVIDENCE</p>
+        <h1>Know what launched.<br><em>Know if it trades.</em></h1>
+        <p class="lede">Verified source evidence, market state, and realistic entry + exit checks—explained without hype.</p>
+      </div>
+      <div class="pulse-orbit" aria-hidden="true"><span></span><span></span><b></b></div>
+    </section>
+
+    <section class="statusbar">
+      <div><small>DATASET</small><strong id="dataset">Loading</strong></div>
+      <div><small>LAUNCHES</small><strong id="launchCount">—</strong></div>
+      <div><small>RESEARCH</small><strong class="lime" id="researchCount">—</strong></div>
+      <div><small>LAST OBSERVATION</small><strong id="lastObserved">—</strong></div>
+    </section>
+
+    <section class="feed-head">
+      <div><p class="eyebrow">01 / LAUNCH FEED</p><h2>Recent signals</h2></div>
+      <div class="legend"><span class="dot research"></span>Research <span class="dot watch"></span>Watch <span class="dot suppress"></span>Suppress</div>
+    </section>
+    <section id="feed" class="feed" aria-live="polite"></section>
+  </main>
+
+  <dialog id="detail">
+    <button class="close" aria-label="Close">×</button>
+    <div id="detailBody"></div>
+  </dialog>
+  <footer><span>PULSE LAUNCHLENS / ROBINHOOD CHAIN</span><span>Evidence, not predictions. No trades are executed.</span></footer>
+  <script src="/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "dataset": "launchlens-robinhood-replay-v1",
+    "captured_at": "2026-10-05T04:15:00+00:00",
+    "reference_time": "2026-10-05T04:15:00+00:00",
+    "source": "Genuine persisted Pulse Robinhood observations; identifiers retained for provenance"
+  },
+  "launches": [
+    {
+      "launch_id": "fme_9cbdb28ce7c25677ee14d7d5",
+      "chain": "Robinhood Chain",
+      "token_address": "0x6687f0006f10b10f70d8277cb9a41d524085e174",
+      "token_symbol": "PUMPIT",
+      "token_name": "I WILL PUMP IT SO HARD",
+      "launch_source": "PONS_ROBINHOOD",
+      "detected_at": "2026-10-05T03:34:02.647806+00:00",
+      "age_seconds": 2457,
+      "liquidity_usd": null,
+      "volume_24h_usd": null,
+      "price_usd": 4.70849423378478e-06,
+      "market_data_status": "QUOTE_ONLY",
+      "market_source": "Pons read-only quote",
+      "market_observed_at": "2026-10-05T04:14:55.176033+00:00",
+      "entry_executable": true,
+      "exit_executable": true,
+      "round_trip_result": {
+        "benchmark_notional_usd": 100.0,
+        "immediate_exit_value_usd": 93.914245,
+        "loss_percent": 6.09,
+        "observed_at": "2026-10-05T04:14:55.176033+00:00",
+        "disclaimer": "Read-only historical quote; not a trade or guarantee."
+      },
+      "freshness_state": "RECENT",
+      "market_freshness": "FRESH",
+      "decision": "RESEARCH",
+      "decision_reasons": [
+        "Launch source is verified.",
+        "A benchmark entry and immediate exit both executed in read-only quotes.",
+        "Observed round-trip impact was 6.1%.",
+        "Executability is known; aggregate liquidity and volume are not yet available."
+      ],
+      "evidence": {
+        "source_event_id": "fme_9cbdb28ce7c25677ee14d7d5",
+        "block_number": 80470999,
+        "block_timestamp": "2026-10-05T03:31:02+00:00",
+        "quote_source": "PONS_V2_NATIVE_ETH_VIA_VERIFIED_UNISWAP_V3_WETH_USDG_EXACT_100_USDG",
+        "route": "EXACT_CURRENT_STATE_NO_USER_SLIPPAGE_BUFFER"
+      },
+      "links": {
+        "contract_explorer": "https://robinhoodchain.blockscout.com/address/0x6687f0006f10b10f70d8277cb9a41d524085e174",
+        "block_explorer": "https://robinhoodchain.blockscout.com/block/80470999",
+        "launch_source": "https://www.ponsfamily.com/launchpad/0x6687f0006f10b10f70d8277cb9a41d524085e174",
+        "market_source": "https://www.ponsfamily.com/launchpad/0x6687f0006f10b10f70d8277cb9a41d524085e174"
+      },
+      "record_mode": "REPLAY"
+    },
+    {
+      "launch_id": "fme_d758bc2510e2555b3c05b3fc",
+      "chain": "Robinhood Chain",
+      "token_address": "0xf4546300168cfe36122c2e1e94c4e416ba1c979e",
+      "token_symbol": "MORPHO",
+      "token_name": "Morpho",
+      "launch_source": "PONS_ROBINHOOD",
+      "detected_at": "2026-10-05T03:09:03.058838+00:00",
+      "age_seconds": 3956,
+      "liquidity_usd": null,
+      "volume_24h_usd": null,
+      "price_usd": 5.247907934339564e-06,
+      "market_data_status": "QUOTE_ONLY",
+      "market_source": "Pons read-only quote",
+      "market_observed_at": "2026-10-05T03:47:44.362342+00:00",
+      "entry_executable": true,
+      "exit_executable": true,
+      "round_trip_result": {
+        "benchmark_notional_usd": 100.0,
+        "immediate_exit_value_usd": 76.232423,
+        "loss_percent": 23.77,
+        "observed_at": "2026-10-05T03:47:44.362342+00:00",
+        "disclaimer": "Read-only historical quote; not a trade or guarantee."
+      },
+      "freshness_state": "RECENT",
+      "market_freshness": "RECENT",
+      "decision": "WATCH",
+      "decision_reasons": [
+        "Entry and exit paths exist, but observed round-trip impact is too high for RESEARCH.",
+        "Wait for a healthier market state."
+      ],
+      "evidence": {
+        "source_event_id": "fme_d758bc2510e2555b3c05b3fc",
+        "block_number": 80456550,
+        "block_timestamp": "2026-10-05T03:06:23+00:00",
+        "quote_source": "PONS_V2_NATIVE_ETH_VIA_VERIFIED_UNISWAP_V3_WETH_USDG_EXACT_100_USDG",
+        "route": "EXACT_CURRENT_STATE_NO_USER_SLIPPAGE_BUFFER"
+      },
+      "links": {
+        "contract_explorer": "https://robinhoodchain.blockscout.com/address/0xf4546300168cfe36122c2e1e94c4e416ba1c979e",
+        "block_explorer": "https://robinhoodchain.blockscout.com/block/80456550",
+        "launch_source": "https://www.ponsfamily.com/launchpad/0xf4546300168cfe36122c2e1e94c4e416ba1c979e",
+        "market_source": "https://www.ponsfamily.com/launchpad/0xf4546300168cfe36122c2e1e94c4e416ba1c979e"
+      },
+      "record_mode": "REPLAY"
+    },
+    {
+      "launch_id": "fme_6b7670fd7614d37107e7b75f",
+      "chain": "Robinhood Chain",
+      "token_address": "0x246969a87239c22131b5d4c8a8b27659be931e46",
+      "token_symbol": "INGRDT",
+      "token_name": "Ingredient",
+      "launch_source": "PONS_ROBINHOOD",
+      "detected_at": "2026-10-04T21:51:02.345629+00:00",
+      "age_seconds": 23037,
+      "liquidity_usd": null,
+      "volume_24h_usd": null,
+      "price_usd": 4.820752962530586e-06,
+      "market_data_status": "QUOTE_ONLY",
+      "market_source": "Pons read-only quote",
+      "market_observed_at": "2026-10-04T22:23:09.832+00:00",
+      "entry_executable": true,
+      "exit_executable": true,
+      "round_trip_result": {
+        "benchmark_notional_usd": 100.0,
+        "immediate_exit_value_usd": 90.245603,
+        "loss_percent": 9.75,
+        "observed_at": "2026-10-04T22:23:09.832+00:00",
+        "disclaimer": "Read-only historical quote; not a trade or guarantee."
+      },
+      "freshness_state": "STALE",
+      "market_freshness": "STALE",
+      "decision": "SUPPRESS",
+      "decision_reasons": [
+        "The launch is outside the useful freshness window."
+      ],
+      "evidence": {
+        "source_event_id": "fme_6b7670fd7614d37107e7b75f",
+        "block_number": 80267822,
+        "block_timestamp": "2026-10-04T21:48:33+00:00",
+        "quote_source": "PONS_V2_NATIVE_ETH_VIA_VERIFIED_UNISWAP_V3_WETH_USDG_EXACT_100_USDG",
+        "route": "EXACT_CURRENT_STATE_NO_USER_SLIPPAGE_BUFFER"
+      },
+      "links": {
+        "contract_explorer": "https://robinhoodchain.blockscout.com/address/0x246969a87239c22131b5d4c8a8b27659be931e46",
+        "block_explorer": "https://robinhoodchain.blockscout.com/block/80267822",
+        "launch_source": "https://www.ponsfamily.com/launchpad/0x246969a87239c22131b5d4c8a8b27659be931e46",
+        "market_source": "https://www.ponsfamily.com/launchpad/0x246969a87239c22131b5d4c8a8b27659be931e46"
+      },
+      "record_mode": "REPLAY"
+    },
+    {
+      "launch_id": "fme_9668f54a63efba9822302470",
+      "chain": "Robinhood Chain",
+      "token_address": "0x22281f90f047a08ac104c69ee38048d80a2dd09e",
+      "token_symbol": null,
+      "token_name": null,
+      "launch_source": "DOPPLER_UNATTRIBUTED_ROBINHOOD",
+      "detected_at": "2026-10-05T04:01:05.301148+00:00",
+      "age_seconds": 834,
+      "liquidity_usd": null,
+      "volume_24h_usd": null,
+      "price_usd": null,
+      "market_data_status": "UNAVAILABLE",
+      "market_source": null,
+      "market_observed_at": null,
+      "entry_executable": null,
+      "exit_executable": null,
+      "round_trip_result": {
+        "benchmark_notional_usd": null,
+        "immediate_exit_value_usd": null,
+        "loss_percent": null,
+        "observed_at": null,
+        "disclaimer": "Read-only historical quote; not a trade or guarantee."
+      },
+      "freshness_state": "FRESH",
+      "market_freshness": "UNKNOWN",
+      "decision": "SUPPRESS",
+      "decision_reasons": [
+        "Source identity is incomplete or unverified."
+      ],
+      "evidence": {
+        "source_event_id": "fme_9668f54a63efba9822302470",
+        "block_number": 80487847,
+        "block_timestamp": "2026-10-05T03:59:49+00:00",
+        "quote_source": null,
+        "route": null
+      },
+      "links": {
+        "contract_explorer": "https://robinhoodchain.blockscout.com/address/0x22281f90f047a08ac104c69ee38048d80a2dd09e",
+        "block_explorer": "https://robinhoodchain.blockscout.com/block/80487847",
+        "launch_source": null,
+        "market_source": null
+      },
+      "record_mode": "REPLAY"
+    }
+  ]
+}

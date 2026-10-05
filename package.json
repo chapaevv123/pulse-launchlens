@@ -1,0 +1,17 @@
+{
+  "name": "pulse-launchlens",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read-only Robinhood Chain launch intelligence terminal",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test:worker": "node --test worker-tests/worker.test.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.4.0"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}

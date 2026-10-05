@@ -1,0 +1,23 @@
+.external-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 13px;
+}
+
+.external {
+  display: inline-flex;
+  align-items: center;
+  color: var(--lime);
+  font: 600 10px ui-monospace, monospace;
+  letter-spacing: .06em;
+  text-decoration: none;
+  border: 1px solid #38442f;
+  padding: 7px 9px;
+  background: #11170f;
+}
+
+.external:hover,
+.external:focus-visible {
+  border-color: var(--lime);
+}
